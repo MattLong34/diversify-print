@@ -34,13 +34,43 @@ body {
 	border-bottom: 1px solid purple;
 }
 
-/* ABOUT SECTION */
+/* HERO SECTION */
 
-/* PORTFOLIO SECTION */
+#section-hero {
+	margin-top: 12rem;
+}
 
-/* RESUME SECTION */
+#hero-card-1 {
+	/* width: 35%; */
+	border: none;
+}
 
-/* FOOTER SECTION */
+#hero-card-1 .card-title {
+	font-size: 2rem;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #8064a2 !important;
+	border: none;
+}
+
+#hero-card-2 {
+	/* background-color: lightgray; */
+	border: none;
+}
+
+#hero-card-2 img {
+	width: 100%;
+}
+
+/* X SECTION */
+
+/* X SECTION */
+
+/* X SECTION */
 
 footer {
 	margin: 3rem;
