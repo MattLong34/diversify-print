@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+
+/* MEDIA QUERIES*/
+
+@media (min-width: 250px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/* GENERAL */
+
+body {
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+	border: 0;
+}
+
+/* HEADER SECTION */
+
+#diversify-print-logo {
+	width: 8rem;
+}
+
+.nav-item {
+	font-size: 1.25rem;
+	margin: 1rem;
+}
+
+.navbar {
+	border-bottom: 1px solid purple;
+}
+
+/* ABOUT SECTION */
+
+/* PORTFOLIO SECTION */
+
+/* RESUME SECTION */
+
+/* FOOTER SECTION */
+
+footer {
+	margin: 3rem;
+	text-align: center;
+}
