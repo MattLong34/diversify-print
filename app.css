@@ -83,7 +83,16 @@ body {
 }
 
 #carousel-card .card-title {
-	font-size: 2rem;
+	font-size: 1.5rem;
+}
+
+#carousel-card .card-body {
+	text-align: center;
+}
+
+.carousel-image {
+	width: 30%;
+	margin-bottom: 1rem;
 }
 
 .fa-chevron-left {
