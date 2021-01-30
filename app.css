@@ -79,6 +79,8 @@ body {
 
 #carousel-card {
 	border: none;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	/* background-color: lightgoldenrodyellow; */
 }
 
