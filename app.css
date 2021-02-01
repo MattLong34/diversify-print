@@ -70,11 +70,8 @@ body {
 
 #section-carousel {
 	background-color: lightgray;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	color: black;
+	margin: 5rem 0rem 5rem 0rem;
+	padding: 5rem 0rem 5rem 0rem;
 }
 
 #carousel-card {
@@ -107,11 +104,18 @@ body {
 	font-size: 3rem;
 }
 
-/* X SECTION */
+/* FEATURED CONTENT SECTION */
+
+#section-featured-content {
+	margin: 5rem 0rem 5rem 0rem;
+	padding: 3rem 0rem 3rem 0rem;
+}
 
 /* X SECTION */
 
 footer {
-	margin: 3rem;
+	padding: 3rem;
+	margin-top: 3rem;
 	text-align: center;
+	background-color: lightgray;
 }
