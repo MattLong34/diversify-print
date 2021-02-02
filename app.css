@@ -80,16 +80,21 @@ body {
 /* CAROUSEL SECTION */
 
 #section-carousel {
-	background-color: lightgray;
-	margin: 5rem 0rem 5rem 0rem;
-	padding: 5rem 0rem 5rem 0rem;
+	/* background-color: lightgray; */
+	background-image: url(assets/paint-explosion.png);
+	background-size: 35rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* margin: 5rem 0rem 5rem 0rem; */
+	padding: 10rem 0rem 10rem 0rem;
 }
 
 #carousel-card {
 	border: none;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	/* background-color: lightgoldenrodyellow; */
+    background-color: rgba(215, 215, 214, 0.65);
+    background
 }
 
 #carousel-card .card-title {
