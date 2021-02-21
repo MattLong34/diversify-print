@@ -97,8 +97,9 @@ body {
 
 #section-carousel {
 	/* background-color: lightgray; */
-	background-image: url(assets/paint-explosion.png);
-	background-size: 35rem;
+	/* background-image: url(assets/paint-explosion.png); */
+	background-image: url(assets/blue-paint-brush-stroke.png);
+	background-size: 70rem;
 	background-repeat: no-repeat;
 	background-position: center;
 	/* margin: 5rem 0rem 5rem 0rem; */
