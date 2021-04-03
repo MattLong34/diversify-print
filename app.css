@@ -9,6 +9,13 @@
 	#diversify-print-logo {
 		width: 10rem;
 	}
+	#hero-card-1 {
+		padding-top: 0%;
+	}
+	#hero-card-1 .card-title {
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
 }
 
 @media (min-width: 768px) {
@@ -21,6 +28,13 @@
 	.nav-item {
 		font-size: 1.15rem;
 		margin: 1rem;
+	}
+	#hero-card-1 {
+		padding-top: 15%;
+	}
+	#hero-card-1 .card-title {
+		font-size: 2rem;
+		padding-bottom: 1rem;
 	}
 }
 
@@ -75,15 +89,16 @@ body {
 }
 
 #hero-card-1 {
-	/* width: 35%; */
 	border: none;
 	margin-top: 3rem;
 	text-align: center;
+	background-color: transparent;
 }
 
-#hero-card-1 .card-title {
-    font-size: 1.5rem;
-}
+/* #hero-card-1 .card-title {
+    font-size: 2rem;
+	padding-bottom: 1rem;
+} */
 
 #hero-card-2 {
 	/* background-color: lightgray; */
