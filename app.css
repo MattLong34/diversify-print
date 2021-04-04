@@ -184,8 +184,9 @@ footer {
 	padding: 3rem;
 	margin-top: 3rem;
 	text-align: center;
-	background-color: lightgray;
+	/* background-color: lightgray; */
 	background-color: white;
+	/* display: inline-block; */
 	/* border-top: 1px solid #3a6ea5; */
 	/* background-color: rgb(21, 62, 99); */
 	/* color: white; */
