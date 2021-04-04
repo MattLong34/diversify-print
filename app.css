@@ -56,6 +56,10 @@ body {
 	background-color:rgb(242, 239, 233);
 }
 
+a {
+	color: black;
+}
+
 .btn-primary {
     /* color: #5a189a; */
     color: #3a6ea5;
