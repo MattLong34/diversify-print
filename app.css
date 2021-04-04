@@ -237,6 +237,24 @@ footer {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
+/* FOR AUTHORS PAGE */
+
+#section-for-authors-body {
+	margin: 5rem 0rem 5rem 0rem;
+    padding: 3rem 0rem 3rem 0rem;
+    font-size: 1.25rem;
+}
+
+.partner-logo {
+	width: 15rem;
+	margin: 1rem 0rem 2rem 3rem;
+	transition: 100ms linear;
+}
+
+.partner-logo:hover {
+	transform: scale(1.1);
+}
+
 /* TESTIMONIAL PAGE */
 
 .testimonial-image {
