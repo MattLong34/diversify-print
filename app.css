@@ -12,6 +12,12 @@
 	h1 {
 		font-size: 1.5rem;
 	}
+	#wave-1 {
+		margin-top: -8rem;
+	}
+	.wave-2 {
+		margin-top: -13rem;
+	}
 	#hero-card-1 {
 		padding-top: 0%;
 	}
@@ -44,6 +50,9 @@
 	}
 	h1 {
 		font-size: 2rem;
+	}
+	#wave-1 {
+		margin-top: -10rem;
 	}
 	#hero-card-1 {
 		padding-top: 15%;
@@ -85,7 +94,7 @@ a {
     color: #3a6ea5;
     background-color: white;
     /* border: 2px solid #5a189a; */
-    border: 2px solid #3a6ea5;
+    border: 2px solid #55828C;
     font-size: 1.25rem;
     border-radius: 45px;
 }
@@ -104,7 +113,7 @@ a {
 
 .navbar {
 	/* border-bottom: 1px solid #5a189a; */
-	border-bottom: 1px solid #3a6ea5;
+	border-bottom: 1px solid #55828C;
 	background-color: white;
 }
 
@@ -118,7 +127,7 @@ a {
 	/* background-color: #e7ecef;
 	border-bottom-left-radius: 350% 250px;
 	border-bottom-right-radius: 350% 250px; */
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 }
 
 #hero-card-1 {
@@ -151,7 +160,7 @@ a {
 	/* background-image: url(assets/paint-explosion.png); */
 	/* background-image: url(assets/blue-paint-brush-stroke.png); */
 	/* background-image: url(assets/DP\ Cover\ image\ \(1\).png); */
-	background-color: rgb(85, 130, 140);
+	background-color: #55828C;
 	/* background-size: 150vw; */
 	background-repeat: no-repeat;
 	background-position: center;
