@@ -32,6 +32,9 @@
 		padding-bottom: 1rem;
 		line-height: 3rem;
 	}
+	.carousel-image {
+		width: 10rem;
+	}
 	#section-about-us-story {
 		margin: 0rem;
 		padding: 3rem 0rem 3rem 0rem;
@@ -73,6 +76,9 @@
 	}
 	#carousel-card .card-text {
 		height: 6rem;
+	}
+	.carousel-image {
+		width: 15rem;
 	}
 	#section-about-us-story {
 		margin: 2rem 0rem 2rem 0rem;
@@ -193,7 +199,6 @@ a {
 }
 
 .carousel-image {
-	width: 15rem;
 	border-radius: 10rem;
 	margin-bottom: 1rem;
 }
@@ -213,6 +218,7 @@ a {
 #section-featured-content {
 	margin: 5rem 0rem 5rem 0rem;
 	padding: 3rem 0rem 3rem 0rem;
+	line-height: 3rem;
 }
 
 #section-featured-content a {
