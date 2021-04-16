@@ -43,24 +43,24 @@
         <svg class="wave-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#55828c" fill-opacity="1" d="M0,192L60,197.3C120,203,240,213,360,192C480,171,600,117,720,122.7C840,128,960,192,1080,197.3C1200,203,1320,149,1380,122.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>            <div class="container">
           <div class="container contact-form">
             <h2><strong>Contact Diversify Print</strong></h2>
-            <form>
+            <form accept-charset="utf-8" action="https://formspree.io/f/moqyqlqw" method="post">
               <div class="row">
                 <label for="exampleFormControlInput1">Name</label>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" class="form-control" placeholder="First name" name="firstname" required>
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name">
+                  <input type="text" class="form-control" placeholder="Last name" name="lastname" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
               </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Your role</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>Select --</option>
+                <select class="form-control" id="exampleFormControlSelect1" name="role" required>
+                  <option selected="" disabled="">Select</option>
                   <option>Writer</option>
                   <option>Publisher</option>
                   <option>Other</option>
@@ -76,8 +76,10 @@
               </div> -->
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Tell us more...</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Brief description of your request..."></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Brief description of your request..." name="message" required></textarea>
               </div>
+              <input class="btn btn-primary contact-us-button" type="submit" value="Send Message">
+
             </form>
             <!-- <div class="about-us-button-group">
                 <a href="#" class="btn btn-primary about-us-button">For Authors</a>
