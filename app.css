@@ -322,9 +322,16 @@ footer {
 
 /* FOR AUTHORS PAGE */
 
+.partner-section {
+	text-align: center;
+}
+
+.partner {
+	margin-bottom: 2rem;
+}
+
 .partner-logo {
 	width: 15rem;
-	margin: 1rem 0rem 2rem 3rem;
 	transition: 100ms linear;
 }
 
